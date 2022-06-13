@@ -32,3 +32,7 @@ yarn-error.log*
 
 # vercel
 .vercel
+
+# ignore built storybook
+dist
+public/storybook

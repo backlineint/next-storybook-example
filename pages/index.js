@@ -24,10 +24,7 @@ export default function Home({ name }) {
         <div className={styles.grid}>
           <a href="storybook/index.html" className={styles.card}>
             <h2>Storybook &rarr;</h2>
-            <p>
-              The URL isn't ideal, but it is possible to serve storybook out of
-              Next's public directory.
-            </p>
+            <p>Storybook served out of Next's public directory.</p>
           </a>
 
           <a href="https://nextjs.org/learn" className={styles.card}>
